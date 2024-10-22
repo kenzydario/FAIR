@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528> a dcat:Resource,
+    dcat:Catalog;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Crime against women";
+  dcterms:title "Crime against women";
+  dcat:version "V1";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-10-22T11:53:42.64357525Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2024-10-22T15:06:12.035118292Z"^^xsd:dateTime;
+  dcterms:license <http://purl.org/NET/rdflicense/cc-zero1.0>;
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528#identifier>;
+  dcterms:accessRights <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528#accessRights>;
+  dcterms:publisher [ a foaf:Agent;
+      foaf:name "Group 8"
+    ];
+  dcterms:isPartOf <http://localhost:8080>;
+  <http://semanticscience.org/resource/SIO_000628> <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:issued "2024-10-22T11:53:42.64357525Z"^^xsd:dateTime;
+  dcterms:modified "2024-10-22T11:53:42.64357525Z"^^xsd:dateTime;
+  dcat:dataset <http://localhost:8080/dataset/b36a15b5-1325-4649-8ab5-f6cbdff2b4e3>;
+  dcterms:conformsTo <http://localhost:8080/profile/a0949e72-4466-4d53-8900-9436d1049a4b> .
+
+<http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528#identifier> a
+    <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528" .
+
+<http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
+
+<http://localhost:8080/dataset/> a ldp:DirectContainer;
+  dcterms:title "Datasets";
+  ldp:membershipResource <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528>;
+  ldp:hasMemberRelation dcat:dataset;
+  ldp:contains <http://localhost:8080/dataset/b36a15b5-1325-4649-8ab5-f6cbdff2b4e3> .
+
+<http://localhost:8080/profile/a0949e72-4466-4d53-8900-9436d1049a4b> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Catalog Profile" .
