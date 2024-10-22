@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<http://localhost:8080> a dcat:Resource, dcat:DataService, <https://w3id.org/fdp/fdp-o#MetadataService>,
+    <https://w3id.org/fdp/fdp-o#FAIRDataPoint>;
+  <http://www.w3.org/2000/01/rdf-schema#label> "My FAIR Data Point";
+  dcterms:title "My FAIR Data Point";
+  dcat:version "1.0"^^xsd:float;
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-10-22T11:50:37.186308994Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2024-10-22T15:06:12.672677602Z"^^xsd:dateTime;
+  dcterms:license <http://purl.org/NET/rdflicense/cc-zero1.0>;
+  dcterms:description "Duis pellentesque, nunc a fringilla varius, magna dui porta quam, nec ultricies augue turpis sed velit. Donec id consectetur ligula. Suspendisse pharetra egestas massa, vel varius leo viverra at. Donec scelerisque id ipsum id semper. Maecenas facilisis augue vel justo molestie aliquet. Maecenas sed mattis lacus, sed viverra risus. Donec iaculis quis lacus vitae scelerisque. Nullam fermentum lectus nisi, id vulputate nisi congue nec. Morbi fermentum justo at justo bibendum, at tempus ipsum tempor. Donec facilisis nibh sed lectus blandit venenatis. Cras ullamcorper, justo vitae feugiat commodo, orci metus suscipit purus, quis sagittis turpis ante eget ex. Pellentesque malesuada a metus eu pulvinar. Morbi rutrum euismod eros at varius. Duis finibus dapibus ex, a hendrerit mauris efficitur at.";
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <http://localhost:8080#identifier>;
+  <http://www.re3data.org/schema/3-0#repositoryIdentifier> <http://localhost:8080#identifier>;
+  dcterms:accessRights <http://localhost:8080#accessRights>;
+  dcterms:publisher <http://localhost:8080#publisher>;
+  <https://w3id.org/fdp/fdp-o#metadataCatalog> <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528>;
+  dcterms:conformsTo <http://localhost:8080/profile/77aaad6a-0136-4c6e-88b9-07ffccd0ee4c>;
+  <https://w3id.org/fdp/fdp-o#fdpSoftwareVersion> "FDP:v1.17.2~34fb697";
+  dcat:endpointURL <http://localhost:8080> .
+
+<http://localhost:8080#identifier> a <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "http://localhost:8080" .
+
+<http://localhost:8080#accessRights> a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<http://localhost:8080#publisher> a foaf:Agent;
+  foaf:name "Default Publisher" .
+
+<http://localhost:8080/catalog/> a ldp:DirectContainer;
+  dcterms:title "Catalogs";
+  ldp:membershipResource <http://localhost:8080>;
+  ldp:hasMemberRelation <https://w3id.org/fdp/fdp-o#metadataCatalog>;
+  ldp:contains <http://localhost:8080/catalog/597a8f61-20be-4083-bb7a-2b088097d528> .
+
+<http://localhost:8080/profile/77aaad6a-0136-4c6e-88b9-07ffccd0ee4c> <http://www.w3.org/2000/01/rdf-schema#label>
+    "FAIR Data Point Profile" .
