@@ -1,0 +1,366 @@
+@prefix literacy: <https://w3id.org/FAIR-course-UT/2024-2025/8/ont> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#0> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q668> .
+_:node1iaqdo8stx1 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "64.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#0> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx1 .
+_:node1iaqdo8stx2 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "73"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#0> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx2 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#1> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1159> .
+_:node1iaqdo8stx3 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "60.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#1> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx3 .
+_:node1iaqdo8stx4 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "67"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#1> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx4 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#2> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1162> .
+_:node1iaqdo8stx5 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "54.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#2> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx5 .
+_:node1iaqdo8stx6 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "65.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#2> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx6 .
+_:node1iaqdo8stx7 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#3> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1164>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx7 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "63.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#3> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx7 .
+_:node1iaqdo8stx8 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "72.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#3> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx8 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#4> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1165> .
+_:node1iaqdo8stx9 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "47"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#4> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx9 .
+_:node1iaqdo8stx10 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "61.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#4> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx10 .
+_:node1iaqdo8stx11 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#5> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1168>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx11 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "64.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#5> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx11 .
+_:node1iaqdo8stx12 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "70.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#5> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx12 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#6> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1171> .
+_:node1iaqdo8stx13 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "82"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#6> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx13 .
+_:node1iaqdo8stx14 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "88.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#6> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx14 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#7> a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx15 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#7> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1061> .
+_:node1iaqdo8stx15 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "69.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#7> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx15 .
+_:node1iaqdo8stx16 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "78"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#7> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx16 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#8> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1174> .
+_:node1iaqdo8stx17 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "67.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#8> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx17 .
+_:node1iaqdo8stx18 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "75.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#8> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx18 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#9> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1177> .
+_:node1iaqdo8stx19 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#9> a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx19 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "76.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#9> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx19 .
+_:node1iaqdo8stx20 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "82.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#9> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx20 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#10> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1180> .
+_:node1iaqdo8stx21 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "55.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#10> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx21 .
+_:node1iaqdo8stx22 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "67.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#10> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx22 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#11> a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx23 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#11> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1184> .
+_:node1iaqdo8stx23 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "53.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#11> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx23 .
+_:node1iaqdo8stx24 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "66.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#11> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx24 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#12> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1185> .
+_:node1iaqdo8stx25 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "66.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#12> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx25 .
+_:node1iaqdo8stx26 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "75.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#12> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx26 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#13> a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx27 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#13> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1186> .
+_:node1iaqdo8stx27 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "90.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#13> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx27 .
+_:node1iaqdo8stx28 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "94"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#13> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx28 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#14> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1188> .
+_:node1iaqdo8stx29 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "63.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#14> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx29 .
+_:node1iaqdo8stx30 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "69.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#14> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx30 .
+_:node1iaqdo8stx31 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#15> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1191>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx31 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "76.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#15> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx31 .
+_:node1iaqdo8stx32 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "82.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#15> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx32 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#16> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1193> .
+_:node1iaqdo8stx33 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "70.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#16> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx33 .
+_:node1iaqdo8stx34 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "76.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#16> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx34 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#17> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1195>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx35 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "62.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#17> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx35 .
+_:node1iaqdo8stx36 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "74.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#17> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx36 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#18> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1502> .
+_:node1iaqdo8stx37 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "88.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#18> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx37 .
+_:node1iaqdo8stx38 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "91.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#18> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx38 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#19> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1599> .
+_:node1iaqdo8stx39 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "66.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#19> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx39 .
+_:node1iaqdo8stx40 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "79.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#19> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx40 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#20> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q22048> .
+_:node1iaqdo8stx41 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "63.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#20> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx41 .
+_:node1iaqdo8stx42 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "72.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#20> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx42 .
+_:node1iaqdo8stx43 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "69.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#21> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx43 .
+_:node1iaqdo8stx43 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#21> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q22424> .
+_:node1iaqdo8stx43 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:node1iaqdo8stx44 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "75.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#21> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx44 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#22> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1437> .
+_:node1iaqdo8stx45 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "60.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#22> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx45 .
+_:node1iaqdo8stx46 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "66.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#22> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx46 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#23> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1505>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx47 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "68.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#23> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx47 .
+_:node1iaqdo8stx48 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "81.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#23> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx48 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#24> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1445> .
+_:node1iaqdo8stx49 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "73.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#24> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx49 .
+_:node1iaqdo8stx50 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "80.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#24> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx50 .
+_:node1iaqdo8stx51 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:node1iaqdo8stx52 dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+_:node1iaqdo8stx51 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "73.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#25> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx51;
+a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1363> .
+_:node1iaqdo8stx52 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "87.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#25> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx52 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#26> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1498> .
+_:node1iaqdo8stx53 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "56.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#26> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx53 .
+_:node1iaqdo8stx54 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "67.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#26> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx54 .
+_:node1iaqdo8stx56 dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int> .
+_:node1iaqdo8stx55 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#27> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1499>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx55 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "71.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#27> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx55 .
+_:node1iaqdo8stx56 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "78.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#27> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx56 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#28> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx57 .
+_:node1iaqdo8stx58 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#28> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx58 .
+_:node1iaqdo8stx58 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "76.3"^^<http://www.w3.org/2001/XMLSchema#double>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#28> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1356> .
+_:node1iaqdo8stx57 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "68.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+_:node1iaqdo8stx59 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#29> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q40888> .
+_:node1iaqdo8stx59 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+_:node1iaqdo8stx60 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#29> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx59 .
+_:node1iaqdo8stx59 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "81.3"^^<http://www.w3.org/2001/XMLSchema#double> .
+_:node1iaqdo8stx60 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "86.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#29> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx60 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#30> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q43433> .
+_:node1iaqdo8stx61 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "81.9"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#30> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx61 .
+_:node1iaqdo8stx62 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "86"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#30> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx62 .
+_:node1iaqdo8stx63 dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#31> a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx63 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#31> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q46107> .
+_:node1iaqdo8stx63 <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "57.6"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#31> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx63 .
+_:node1iaqdo8stx64 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "76.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#31> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx64 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#32> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q66710> .
+_:node1iaqdo8stx65 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "78.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#32> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx65 .
+_:node1iaqdo8stx66 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "87.1"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#32> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx66 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#33> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q26927> .
+_:node1iaqdo8stx67 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "86.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#33> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx67 .
+_:node1iaqdo8stx68 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "91.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#33> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx68 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#34> a <https://www.wikidata.org/entity/Q8236>;
+<http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q1353> .
+_:node1iaqdo8stx69 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "81.7"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#34> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx69 .
+_:node1iaqdo8stx70 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "86.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#34> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx70 .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#35> <http://purl.obolibrary.org/obo/BFO_0000066> <https://www.wikidata.org/entity/Q66743>;
+a <https://www.wikidata.org/entity/Q8236> .
+_:node1iaqdo8stx71 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2001"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "81.2"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#35> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx71 .
+_:node1iaqdo8stx72 a <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#LiteracyRecord>;
+dct:date "2011"^^<http://www.w3.org/2001/XMLSchema#int>;
+<https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasValue> "85.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+<https://w3id.org/FAIR-course-UT/2024-2025/8/data#35> <https://w3id.org/FAIR-course-UT/2024-2025/8/ont#hasRecord> _:node1iaqdo8stx72 .
