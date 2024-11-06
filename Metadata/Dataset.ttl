@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix ldp: <http://www.w3.org/ns/ldp#> .
+
+<http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d> a dcat:Dataset;
+  <http://www.w3.org/2000/01/rdf-schema#label> "Crime against women";
+  dcterms:title "Crime against women";
+  <https://w3id.org/fdp/fdp-o#metadataIssued> "2024-11-06T22:34:41.281392714Z"^^xsd:dateTime;
+  <https://w3id.org/fdp/fdp-o#metadataModified> "2024-11-06T22:34:41.281392714Z"^^xsd:dateTime;
+  dcterms:license "Apache 2.0";
+  dcterms:description "This dataset encompasses crime statistics from 2001 to 2021, covering various categories of crimes against women, such as Rapes, Kidnap and Assault, Dowrt Deaths, Assault on Women etc.";
+  dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en>;
+  <https://w3id.org/fdp/fdp-o#metadataIdentifier> <http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d#identifier>;
+  dcterms:accessRights <http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d#accessRights>;
+  dcterms:publisher <https://www.kaggle.com/datasets/balajivaraprasad/crimes-against-women-in-india-2001-2021>;
+  dcterms:isPartOf <http://localhost:8080/catalog/40d6eb5e-ae26-4fc0-881f-03a36f688e47>;
+  <http://semanticscience.org/resource/SIO_000628> <http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d/metrics/445c0a70d1e214e545b261559e2842f4>,
+    <http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d/metrics/5d27e854a9e78eb3f663331cd47cdc13>;
+  dcterms:accrualPeriodicity "Never";
+  dcterms:contributor "BALAJI VARA PRASAD DEGA";
+  dcterms:creator "National Crime Records Bureau";
+  dcterms:source <https://www.data.gov.in>;
+  dcterms:conformsTo <http://localhost:8080/profile/2f08228e-1789-40f8-84cd-28e3288c3604> .
+
+<http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d#identifier> a
+    <http://purl.org/spar/datacite/Identifier>;
+  dcterms:identifier "http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d" .
+
+<http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d#accessRights>
+  a dcterms:RightsStatement;
+  dcterms:description "This resource has no access restriction" .
+
+<http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d/metrics/445c0a70d1e214e545b261559e2842f4>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.ietf.org/rfc/rfc3986.txt>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.ietf.org/rfc/rfc3986.txt> .
+
+<http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d/metrics/5d27e854a9e78eb3f663331cd47cdc13>
+  <http://semanticscience.org/resource/SIO_000628> <https://www.wikidata.org/wiki/Q8777>;
+  <http://semanticscience.org/resource/SIO_000332> <https://www.wikidata.org/wiki/Q8777> .
+
+<http://localhost:8080/distribution/> a ldp:DirectContainer;
+  dcterms:title "Distributions";
+  ldp:membershipResource <http://localhost:8080/dataset/2799be59-9695-45c1-ab1d-520baa73065d>;
+  ldp:hasMemberRelation dcat:distribution .
+
+<http://localhost:8080/profile/2f08228e-1789-40f8-84cd-28e3288c3604> <http://www.w3.org/2000/01/rdf-schema#label>
+    "Dataset Profile" .
